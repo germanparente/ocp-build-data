@@ -1,8 +1,8 @@
 
-# This file is managed by doozer: https://github.com/openshift-eng/doozer
+# This file is managed by Doozer: https://github.com/openshift-eng/art-tools/tree/main/doozer
 # operated by the OpenShift Automated Release Tooling team (#forum-ocp-art on CoreOS Slack).
 
-# Any manual changes will be overwritten by doozer on the next build.
+# Any manual changes will be overwritten by Doozer on the next build.
 #
 # See https://source.redhat.com/groups/public/container-build-system/container_build_system_wiki/odcs_integration_with_osbs
 # for more information on maintaining this file and the format and examples
@@ -18,4 +18,4 @@ tags:
 - assembly.stream
 - v4.17
 - v4.17.0
-- v4.17.0.20240805.103900
+- v4.17.0.20241030.103140
