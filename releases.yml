@@ -6698,6 +6698,11 @@ releases:
           component: '*'
       members:
         images:
+          - distgit_key: driver-toolkit
+            why: Pin build because this matches the right kernel version used by rhcos
+            metadata:
+              is:
+                nvr: driver-toolkit-container-v4.12.0-202511032028.p2.g8ab7a75.assembly.stream.el8
           - distgit_key: '*'
             why: Exclude rpm updates that should not cause mass rebuilds
             metadata:
